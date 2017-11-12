@@ -1,0 +1,156 @@
+div.header {
+  width: 959px;
+  height:70px;
+  margin-left: 40px;
+  opacity: 0.6;
+  line-height: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  background:linear-gradient(to bottom, #ffffff, #e4e6ec);
+}
+
+.sidebar {
+  width: 137px;
+  height:40px;
+  margin-left: 40px;
+  text-align: center;
+  line-height:40px;
+  box-sizing: border-box;
+  border:1px solid #bec3cf;
+  float: left;
+  background:linear-gradient(to top, #d1d4db, #d8dae0);
+}
+
+.sidebar1 {
+  width: 137px;
+  height:40px;
+  text-align: center;
+  line-height:40px;
+  box-sizing: border-box;
+  border:1px solid #bec3cf;
+  float: left;
+  background:linear-gradient(to top, #d1d4db, #d8dae0);
+}
+
+.calendar {
+  width:960px;
+  height:822px;
+  box-sizing: border-box;
+  /*border:1px solid red;*/
+  font-size: 0;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+  .row {
+  height:137px;
+  box-sizing: border-box;
+}
+
+  .cube {
+  width:137px;
+  height:137px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.cube2 {
+  width:137px;
+  height:137px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #f7f7f7;
+}
+
+#box {
+  position: absolute; /* Абсолютное позиционирование */
+  width: 245px; /* Ширина блока */
+  height: 245px;
+  overflow: auto;
+  display: none; /* Прячем от показа */
+  border: 1px solid #000; /* Параметры рамки */
+  padding: 5px; /* Поля вокруг текста */
+  font-family: sans-serif; /* Рубленый шрифт */
+  font-size: 9pt; /* Размер шрифта */
+  color: #333; /* Цвет текста */
+  background: #ECF5E4; /* Цвет фона */
+}
+
+#plane {
+  width: 235px;
+  height: 30px;
+  border: 1px solid #000;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#tex {
+  width: 235px;
+  height: 90px;
+  border: 1px solid #000;
+  margin: 5px;
+  box-sizing: border-box;
+}
+textarea {
+    width: 235px; /* Ширина поля в процентах */
+    height: 90px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+    margin: 5px;
+}
+.close {
+position: relative;
+left: : 235px;
+top: 50px;
+width: 15px;
+height: 15px;
+opacity: 0.3;
+}
+.close:hover {
+opacity: 1;
+}
+.close:before, .close:after {
+position: absolute;
+left: 235px;
+content: ' ';
+height: 10px;
+width: 2px;
+background-color: #333;
+}
+.close:before {
+transform: rotate(45deg);
+}
+.close:after {
+transform: rotate(-45deg);
+}
+h1 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 200%;
+margin: 0;
+color: #6c7996;
+}
+h2{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 12px;
+     text-align:center;
+     margin: 0;
+     color: #8991a2;
+  }
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  text-align:right;
+  margin: 6px;
+  color: #9e9e9e;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  text-align:right;
+  margin: 6px;
+  color: #000000;
+}
